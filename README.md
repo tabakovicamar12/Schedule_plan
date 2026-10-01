@@ -1,8 +1,12 @@
 Zagon aplikacije
-1. uporabite ukaz javac -d out src/*.java
-2. nato podajte vnos za izvajanje programa v obliki z argumenti java -cp out Main 1 2 relative
-3. ali pa izvedite zagon programa z java -cp out Main in ročno vnesite podatke
-4. za izvajanje testov odprite Test/ScheduleTest.java in kliknite na zeleno puščico (Run) ob imenu razreda.
+1. odpremo cmd in v izbrano mapo kloniramo projekt git clone https://github.com/tabakovicamar12/Schedule_plan.git 
+2. premaknemo se v korensko mapo projekta cd Schedule_plan
+3. odpremo IntelliJ IDEA 
+4. Kliknemo na open v orodni vrstici
+5. Odpremo datoteko kjer je kloniran projekt
+6. Odpremo terminal v IntelliJ IDEA
+7. Vnos komand javac -d out src/*.java ter
+8. java -cp out Main 1 2 relative
 
 
 Kako bi naredil nalogo zahtevnejšo?
