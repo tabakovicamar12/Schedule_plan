@@ -5,7 +5,7 @@ Zagon aplikacije
 4. Kliknemo na open v orodni vrstici
 5. Odpremo datoteko kjer je kloniran projekt
 6. Odpremo terminal v IntelliJ IDEA
-7. Vnos komand javac -d out src/*.java ter
+7. Vnos komand javac -d out src/*.java 
 8. java -cp out Main 1 2 relative
 
 
