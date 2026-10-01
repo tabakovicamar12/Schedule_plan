@@ -1,12 +1,12 @@
 Zagon aplikacije
-1. odpremo cmd in v izbrano mapo kloniramo projekt git clone https://github.com/tabakovicamar12/Schedule_plan.git 
-2. premaknemo se v korensko mapo projekta cd Schedule_plan
+1. odpremo cmd in v izbrano mapo
+2. kloniramo projekt git clone https://github.com/tabakovicamar12/Schedule_plan.git 
 3. odpremo IntelliJ IDEA 
 4. Kliknemo na open v orodni vrstici
 5. Odpremo datoteko kjer je kloniran projekt
 6. Odpremo terminal v IntelliJ IDEA
 7. Vnos komand javac -d out src/*.java 
-8. java -cp out Main 1 2 relative
+8. java -cp out Main 2 2 relative
 
 
 Kako bi naredil nalogo zahtevnejšo?
