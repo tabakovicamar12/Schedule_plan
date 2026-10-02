@@ -8,6 +8,11 @@ Zagon aplikacije
 7. Vnos komand javac -d out src/*.java 
 8. java -cp out Main 2 2 relative
 
+Zagon testov
+1. V mapi Test izberemo ScheduleTest
+2. V kodi nato namestimo knjiznice postavimo se na rdece obarvane @Test in namestimo potrebne
+3. Zagon kode na Run 
+
 
 Kako bi naredil nalogo zahtevnejšo?
 1. Predvsem bi namesto text datotek uporabil shranjevanje podatkov v podatkovno bazo. Z tem bi seveda izboljšal
