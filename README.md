@@ -7,6 +7,7 @@ Zagon aplikacije
 6. Odpremo terminal v IntelliJ IDEA
 7. Vnos komand javac -d out src/*.java 
 8. java -cp out Main 2 2 relative
+9. Kodo lahko poženemo tudi klasično na Run in vnesemo podatke v vnosna polja, kjer se nato izpišejo rezultati
 
 Zagon testov
 1. V mapi Test izberemo ScheduleTest
@@ -22,3 +23,5 @@ hitrost pridobivanja podatkov.
 iz vidika uporabikov saj je to ob funkcionalnosti spletne aplikacije zelo pomembno.
 3. Omogočil bi tudi shranjevanje podatkov tudi v odklopljenem načinu dela spletne aplikacije v primeru, da uporabik
 npr. izgubi spletno povezavo se podatki predpomnijo in še vedno lahko dostopa do voznega reda.
+
+Aplikacija že ima dodano, da se na vsake dve uri samodejno osveži seznam prihodov.
