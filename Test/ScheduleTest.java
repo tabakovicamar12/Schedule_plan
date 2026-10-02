@@ -19,7 +19,7 @@ public class ScheduleTest {
 
     @Test
     @DisplayName("Unit Test - LimitArrivals returns at most N buses per line")
-    void testLimitArrivals() {
+    public void testLimitArrivals() {
         List testData = new ArrayList<>();
 
         testData.add(new Data("trip1", "Line 10", 10, 100, "12:00", 10));
@@ -35,7 +35,7 @@ public class ScheduleTest {
 
     @Test
     @DisplayName("Unit Test - CheckTime returns null for time outside 120 minutes window")
-    void testCheckTimeOutsideWindow() {
+    public void testCheckTimeOutsideWindow() {
         LocalTime now = LocalTime.now();
         LocalTime farFuture = now.plusMinutes(150);
         String arrivalStr = String.format("%02d:%02d:00", farFuture.getHour(), farFuture.getMinute());
@@ -48,7 +48,7 @@ public class ScheduleTest {
 
     @Test
     @DisplayName("Unit Test - GroupAndSort handles empty list safely")
-    void testGroupAndSortEmptyList() {
+    public void testGroupAndSortEmptyList() {
         List emptyList = new ArrayList<>();
         List result = Main.groupAndSort(emptyList, 2);
 
@@ -58,7 +58,7 @@ public class ScheduleTest {
 
     @Test
     @DisplayName("Integration Test - Loading station data from GTFS files")
-    void testGetStopsStationIntegration() {
+    public void testGetStopsStationIntegration() {
         int testStopId = 1;
         int limit = 2;
 
