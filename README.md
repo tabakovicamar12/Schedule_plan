@@ -10,7 +10,7 @@ Zagon aplikacije
 
 Zagon testov
 1. V mapi Test izberemo ScheduleTest
-2. V kodi nato namestimo knjiznice postavimo se na rdece obarvane @Test in namestimo potrebne
+2. V kodi nato namestimo knjiznice postavimo se na rdece obarvane na katere se postavimo @Test, jupiter, DisplayName tj. zahtevajo knjiznice JUnit4 ali 5 in namestimo potrebne
 3. Zagon kode na Run 
 
 
